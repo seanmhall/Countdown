@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Countdown</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="overhead_scripts.js"></script>
+    <script src="countdown.js"></script>
+    <script src="conundrum.js"></script>
+    <script src="numbers.js"></script>
+    <script src="letters.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+    <!--<h1>Countdown</h1>-->
+    <img src="countdown_logo.jpg" alt="Countdown" id="logo">
+    <table id="stats_table">
+        <tr id="stats_labels">
+            <td>Points</td>
+            <td>Round</td>
+            <td>Time</td>
+            <td class="tn_cell">Target</td>
+        </tr>
+        <tr id="stats_row">
+            <td id="total_points">0</td>
+            <td id="round_number">0</td>
+            <td id="timer_seconds">0</td>
+            <td id="target_number" class="tn_cell">174</td>
+        </tr>
+    </table>
+    <!--<h2 id="round_title">Letters&nbsp;<span id="round_number_display">(Round 2/9)</span>&nbsp;&bull;&nbsp;10 Points</h2>-->
+    <!--<h2 id="round_title">Letters (see rules)</h2>-->
+
+    <!--<span id="timer_seconds"></span>-->
+    <div id="gameplay_buttons">
+
+        <span id="button_container"></span>
+
+        <!-- These are all hidden and the HTML is extracted from them as needed -->
+        <span id="letters_round_buttons">
+            <!-- Pressing "C" and "V" on the keyboard should also select a Consonant and Vowel, respectively -->
+            <button id="consonant" onclick="letters_round.random_letter();">Consonant</button>&nbsp;
+            <button id="vowel" onclick="letters_round.random_letter(true);">Vowel</button>&nbsp;
+        </span>
+        <span id="numbers_round_buttons">
+            <button id="bignum_button" onclick="numbers_round.select_number(true)">Big Number</button>&nbsp;
+            <button id="smallnum_button" onclick="numbers_round.select_number()">Small Number</button>&nbsp;
+        </span>&nbsp;&nbsp;
+        <span id="conundrum_button">
+            <button id="start_conundrum" onclick="this.innerHTML='Loading...';this.disabled=true;document.getElementById('gameplay_buttons').css('display', 'none');window.conundrum_round = new Conundrum(window.conundrum_word_lists);window.current_game.start_countdown();">Start</button>
+        </span>
+
+    </div>
+    <!-- Generic table -->
+    <table id="gameplay_table"><tbody>
+        <tr id="letters_or_numbers_box"></tr>
+    </tbody></table>
+    <!-- And the generic input form we already have -->
+    <div id="input_form">
+        <!--<label for="letters_answer">Your answer:</label>&nbsp;&nbsp;-->
+        <input type="text" id="user_input_field" name="user_input_field" size="9" maxlength="9">&nbsp;
+        <span class="invalid_input" id="input_validation">0</span>&nbsp;&nbsp;
+        <button type="button" id="end_timer" onclick="window.current_game.end_timer()";>End Timer</button>&nbsp;
+    </div>
+    <div id="rules_box"><strong id="round_name"></strong></div>
+    <div id="round_explanations">
+        <p id="letters_rules">Select 9 letters by clicking the buttons, no more than 6 consonants and no more than 5 vowels. Then find the longest word you can spell with the available letters. Countdown begins as soon as you select the 9th letter.</p>
+        <p id="numbers_rules">Select 6 numbers and a target number will be randomly generated. Using the numbers you chose (each number only once) and simple artithmetic (addition, multiplication, subtraction, and division), construct an equation that equals the target number or as close to it as possible. Countdown begins as soon as the 6th number is selected. If you are unsure what to pick, 2 big numbers and 4 small numbers are recommended.</p>
+        <p id="conundrum_rules">Find the 9-letter word that can be formed using the letters shown. Press "Start" to begin the countdown.</p>
+    </div>
+    <!--<div id="clock">
+        <div id="clock_hand"></div>
+        <hr>
+        <hr class="vertical">
+    </div>-->
+
+    <div id="results_box"><!--Results will go here --></div>
+
+    <button type="button" id="next_round_button" onclick="window.current_game.next_round();">Next Round</button>
+    <button type="button" id="new_game" onclick="new_game();">New Game</button>
+    <button type="button" id="start_game" onclick="init();this.innerHTML='Loading...';this.disabled=true;">Start Game</button>
+
+    <div id="footer">Designed and programmed by Sean M. Hall (2024)</div>
+</div>
+
+</body>
+</html>

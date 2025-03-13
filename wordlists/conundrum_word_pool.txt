@@ -553,7 +553,6 @@ toy
 try
 tub
 tug
-tun
 two
 ufo
 uke
@@ -9536,8 +9535,6 @@ peer
 peers
 peevishly
 pegs
-pekan
-pele
 pelt
 pelts
 penal
@@ -9550,8 +9547,6 @@ pendulous
 pendulums
 penetrate
 peninsula
-penitence
-penitents
 penniless
 penny
 pens
@@ -9583,7 +9578,6 @@ performer
 perfumery
 perfuming
 perfusion
-peri
 peril
 perimeter
 perinatal
@@ -9604,7 +9598,6 @@ permuting
 peroxides
 perpetual
 perplexed
-perry
 persecute
 persevere
 persisted
@@ -10260,7 +10253,6 @@ psoriasis
 psychoses
 psychosis
 psychotic
-ptarmigan
 pubescent
 pubic
 publicans
@@ -10463,7 +10455,6 @@ radiation
 radiative
 radiators
 radically
-radii
 radio
 radiogram
 radiology
@@ -10518,9 +10509,6 @@ ransoming
 rant
 rants
 rapacious
-rape
-raped
-rapes
 rapid
 raps
 rapt
@@ -11880,7 +11868,6 @@ signs
 silencers
 silencing
 silicates
-silicosis
 silk
 silkiness
 silks
@@ -16589,7 +16576,6 @@ dotted
 double
 doubly
 doubts
-douche
 doughs
 dourly
 doused
@@ -16827,10 +16813,7 @@ equity
 erased
 eraser
 erases
-erbium
 erects
-ericas
-ermine
 eroded
 erodes
 erotic
@@ -16845,9 +16828,7 @@ escape
 escarp
 eschew
 escort
-escudo
 eskimo
-espied
 esprit
 essays
 estate
@@ -16932,8 +16913,6 @@ facile
 facing
 factor
 fading
-faecal
-faeces
 failed
 faints
 fairer
@@ -16960,7 +16939,6 @@ farmer
 faroff
 farout
 farrow
-fascia
 fasted
 fasten
 faster
@@ -17128,13 +17106,9 @@ floors
 floozy
 floppy
 floral
-floras
-floret
 florid
 florin
 flossy
-flours
-floury
 flouts
 flowed
 flower
@@ -17156,10 +17130,6 @@ foaled
 foamed
 fobbed
 fodder
-foehns
-foetal
-foetid
-foetus
 fogged
 foible
 foiled
@@ -17297,8 +17267,6 @@ gaffes
 gagged
 gaggle
 gaging
-gaiety
-gaijin
 gained
 gainer
 gainly
@@ -17388,15 +17356,12 @@ ghosts
 ghouls
 giants
 gibber
-gibbet
 gibbon
 gifted
 giggle
 giggly
 gigolo
 gilded
-gillie
-gimlet
 ginger
 girded
 girder
@@ -17617,9 +17582,7 @@ hanger
 hangup
 hanker
 hankie
-hansom
 happen
-harare
 harass
 harden
 harder
@@ -17766,7 +17729,6 @@ honest
 honing
 honors
 honour
-honshu
 hooded
 hookah
 hooked
@@ -17898,7 +17860,6 @@ inches
 incite
 income
 incurs
-indaba
 indeed
 indent
 indian
@@ -20862,12 +20823,9 @@ tacked
 tackle
 tactic
 tagged
-tahiti
 tailed
 tailor
 taints
-taipei
-taiwan
 takers
 taking
 talcum
@@ -20901,8 +20859,6 @@ target
 tariff
 tarmac
 tarred
-tarsal
-tarsus
 tartan
 tartar
 tartly
@@ -21261,15 +21217,9 @@ typify
 typing
 typist
 tyrant
-uboats
 udders
-uganda
 uglier
 ulcers
-ulster
-ultimo
-umbrae
-umbras
 umlaut
 umpire
 unable
@@ -21433,7 +21383,6 @@ velvet
 vendor
 veneer
 venial
-venice
 venoms
 venose
 venous
@@ -21563,8 +21512,6 @@ warmup
 warned
 warped
 warred
-warren
-warsaw
 washed
 washer
 washes
@@ -21715,7 +21662,6 @@ worked
 worker
 worlds
 worsen
-worser
 worthy
 wounds
 wraith
@@ -21733,8 +21679,6 @@ writer
 writes
 writhe
 wrongs
-xhosas
-xrayed
 yachts
 yankee
 yawned
@@ -21749,14 +21693,11 @@ yelped
 yeoman
 yeomen
 yields
-yippee
 yodels
 yokels
 yonder
-yorker
 youths
 yuppie
-zambia
 zealot
 zebras
 zenith
@@ -21765,7 +21706,6 @@ zeroed
 zigzag
 zipped
 zipper
-zither
 zombie
 zoning
 zoomed
